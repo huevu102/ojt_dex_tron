@@ -48,10 +48,10 @@ const transferTRC20 = async (recipientAddress, amount, tokenAddress, walletAddre
     const contract = await tronWeb.contract().at(tokenAddress);
 
     const decimals = await contract.decimals().call({ from: walletAddress });
-    const amountToSend = amount * (10 ** decimals);
+    const amountToSend = BigInt(amount) * BigInt(10) ** BigInt(decimals);
 
 
-    contract.transfer(recipientAddress, amountToSend).send()
+    contract.transfer(recipientAddress, amountToSend.toString()).send()
       .then((result) => {
         console.log(`TRC20 transfer transaction ID: ${result}`)
       });
