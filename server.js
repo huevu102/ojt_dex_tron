@@ -1,5 +1,5 @@
-const walletAddress = 'TMFxzsZnzXQ16fn3aGKqkz4AxQvCsJw2Dp';
-const recipientAddress = 'THuPCmxLvHtJ1DhePMoCiKJaB8PX19n2dv';
+const walletAddress = 'xxxxx';
+const recipientAddress = 'xxxxx';
 
 const USDTAddress = 'TXLAQ63Xg1NAzckPwKHvzw7CSEmLMEqcdj';
 const BTTAddress = 'TNuoKL1ni8aoshfFL1ASca1Gou9RXwAzfn';
@@ -26,4 +26,4 @@ const tokenID = '1000016'; // TRZ token ID
 
 // transferTRX(recipientAddress, amount, walletAddress);
 // transferTRC10(recipientAddress, amount, tokenID, walletAddress);
-transferTRC20(recipientAddress, amount, USDTAddress, walletAddress);
+// transferTRC20(recipientAddress, amount, USDTAddress, walletAddress);

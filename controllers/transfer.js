@@ -1,7 +1,7 @@
 const TronWeb = require('tronweb');
 const tronWeb = new TronWeb({
   fullHost: 'https://nile.trongrid.io',
-  privateKey: 'e4b5d66fceb2de6595874538a9d751f4be3a4328f7ecd47e141086966ce03c38'
+  privateKey: 'xxxxx'
 });
 
 const { getTRXBalance, getTRC10Balance, getTRC20Balance } = require('./get-balance');
