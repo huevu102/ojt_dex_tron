@@ -27,3 +27,9 @@ const tokenID = '1000016'; // TRZ token ID
 // transferTRX(recipientAddress, amount, walletAddress);
 // transferTRC10(recipientAddress, amount, tokenID, walletAddress);
 // transferTRC20(recipientAddress, amount, USDTAddress, walletAddress);
+
+
+// swap tokens
+const { swapTokens } =  require('./controllers/swap');
+// const txnAddress = 'TEFpGUv2eFdkHGxKtBMTVpovBChwXMvTqN'; // SunswapV2 fake
+// swapTokens(txnAddress, walletAddress, USDTAddress, BTTAddress, amount);
